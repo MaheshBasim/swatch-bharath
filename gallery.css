@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+background: #ecf4f4;
+}
+
+.module{
+    text-decoration: underline;
+    color:black;
+}
+.heading{
+    font-family: 'Dancing Script', cursive;
+}
+.container .row img{
+    border-radius: 10%;
+}
+
+.carousel{
+    width: 40vw;
+}
+.layer{
+    height:10vh;
+    background: url('./images/page-title-layer.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom:35px;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    padding-left: 0;
+    padding-right: 0;
+}
+.row {
+    margin-right: 0;
+}
+.navigation{
+    margin-left: 71px;
+}
+@media(max-width:570px){
+    .carousel{
+        width:10vw;
+    }
+    .layer{
+        height: 10vh;
+    }
+    .navigation{
+        margin-left: 20px;
+    }
+}
